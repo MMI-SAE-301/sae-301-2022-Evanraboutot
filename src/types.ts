@@ -3,7 +3,7 @@ export interface Montre {
     bracelet?: string;
     boitier?: string;
     ecran?: string;
-}
+};
 export const colors = {
     "#FFFFFF": "White",
     "#E16969": "Rose",
