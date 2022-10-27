@@ -7,7 +7,7 @@
         <div class="flex flex-shrink-0 flex-grow items-center lg:flex-grow-0">
           <div class="flex w-full items-center justify-between md:w-auto">
             <a href="#">
-              <img alt="watch image" class="h-8 w-auto sm:h-10" src="../public/Group 97.png">
+              <img alt="watch image" class="h-8 w-auto sm:h-10" src="../public/Group-97.png">
             </a>
             <div class="-mr-2 flex items-center md:hidden">
               <button type="button"

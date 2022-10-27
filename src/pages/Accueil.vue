@@ -1,6 +1,6 @@
 <template>
   <div class="bg-indigo-300 max-full h-full">
-    <img alt="watch image" class="max-full w-full  relative z-0" src="../assets/Group 100.png" display: block>
+    <img alt="watch image" class="max-full w-full  relative z-0" src="../assets/Group-100.png" display: block>
   </div>
   <div class="bg-zinc-900">
     <div
@@ -49,7 +49,7 @@
     <div
       class="mx-auto grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 py-24 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
       <div class="grid grid-cols-1 sm:gap-6">
-        <img src="../assets/Group 101.png" alt="montre connectée" />
+        <img src="../assets/Group-101.png" alt="montre connectée" />
         <img class="absolute w-[9.8rem] h-[11.5rem] top-[254 0px] left-[370px] rounded-12xl"
           src="../assets/tumblr_mstgs7dxe91rdu90go1_1280.gif" alt="montre connectée" />
       </div>
@@ -107,7 +107,7 @@
         </dl>
       </div>
       <div class="grid grid-cols-1 sm:gap-6">
-        <img src="../assets/Group 102.png" alt="montre connectée" />
+        <img src="../assets/Group-102.png" alt="montre connectée" />
       </div>
     </div>
 
