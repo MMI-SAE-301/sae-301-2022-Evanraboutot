@@ -1,8 +1,8 @@
 <template>
-  <div class="relative overflow-hidden bg-black"></div>
+  <div class="relative overflow-hidden bg-[#131C32]"></div>
 
   <div>
-          <div class="relative px-4 pt-6 sm:px-6 lg:px-8 bg-stone-900">
+          <div class="relative px-4 pt-6 sm:px-6 lg:px-8 bg-[#131C32]">
             <nav class="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
               <div class="flex flex-shrink-0 flex-grow items-center lg:flex-grow-0">
                 <div class="flex w-full items-center justify-between md:w-auto">
@@ -21,11 +21,11 @@
                 </div>
               </div>
               <div class="hidden md:ml-10 md:block md:space-x-8 md:pr-4">
-                <a href="/Accueil" class="font-medium text-white hover:bg-stone-800">Acceuil</a>
+                <a href="/Accueil" class="items-center font-medium text-white hover:bg-stone-800">Acceuil</a>
   
-                <a href="/custom" class="font-medium text-white hover:bg-stone-800">Personnalisation</a>
+                <a href="/custom" class="items-center font-medium text-white hover:bg-stone-800">Personnalisation</a>
 
-                <a href="/" class="font-medium text-white hover:bg-stone-800">Connexion</a>
+                <a href="/" class="items-center font-medium text-white hover:bg-stone-800">Connexion</a>
               </div>
             </nav>
           </div>
