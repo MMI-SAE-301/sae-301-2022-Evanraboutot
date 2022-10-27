@@ -1,3 +1,5 @@
+<script setup lang="ts">
+</script>
 <template>
   <div class="bg-indigo-300 max-full h-full">
     <img alt="watch image" class="max-full w-full  relative z-0" src="../assets/Group-100.png" display: block>
