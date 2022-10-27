@@ -122,9 +122,11 @@ Style</h2>
   <img src="../../public/PngItem_175396.png" aria-hidden="true" class="mr-2 -ml-1 w-5 h-5">
   Contact
 </button>
+<div class="mx-auto w-full gap-y-16 gap-x-8 py-24 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-120 border-b-4 border-indigo-500 "></div>
 </div>
       
       </div>
-      
+
+   
 
 </template>
