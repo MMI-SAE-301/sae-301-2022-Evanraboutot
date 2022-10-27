@@ -1,4 +1,6 @@
+
 <script setup lang="ts">
+//@ts-nocheck
 </script>
 <template>
   <div class="bg-indigo-300 max-full h-full">
