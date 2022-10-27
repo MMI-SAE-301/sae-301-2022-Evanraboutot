@@ -62,21 +62,21 @@ Connexion Facebook
 Connexion Facebook
 </button>
 
-        <section class="mt-10">
-          <div class="w-full">
+        <section class="mt-10 text-gray-700 text-sm font-bold mb-2 ml-3">
+          <div class="mt-10 text-gray-700 text-sm font-bold mb-2 ml-3">
     <button v-if="user" @pointerdown="supabase.auth.signOut()">
       Se déconnecter ({{ user.email }})
     </button>
-    <FormKit
+    <FormKit 
       v-else
       type="form"
       :submit-label="nvlUtilisateur ? 'Sinscrire' : 'Se connecter'"
       @submit="signIn"
       >
       <form class="flex flex-col" method="POST" action="#">
-      <FormKit name="email" label="Votre email" type="email" wrapper-class="text-xl w-full " />
+      <FormKit class="block text-gray-700 text-sm font-bold mb-2 ml-3" name="email" label="Votre email" type="email" wrapper-class="text-xl w-full " />
       <FormKit name="password" label="Mot de passe" type="password" wrapper-class="text-xl w-full " />
-      <formKit
+      <formKit class="block text-gray-700 text-sm font-bold mb-2 ml-3"
         label="Nouvel utilisateur ?"
         name="nvlUtilisateur"
         type="checkbox"
@@ -117,5 +117,32 @@ Connexion Facebook
 .body-bg {
     background-color: #9921e8;
     background-image: linear-gradient(315deg, #9921e8 0%, #5f72be 74%);
+}
+
+.formkit-options {
+    display: flex;
+    gap: 20px;
+}
+
+.formkit-option label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formkit-fieldset .formkit-legend {
+    color: black;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.bouton {
+    height: 80px;
+    width: 300px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
 }
 </style>
