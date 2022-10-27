@@ -38,15 +38,13 @@ import FormMontre from '@/components/FormMontre.vue'
     <div>
         <h1></h1>
     </div>
-    <div>
+    <div
+        class="mx-auto grid w-full max-w-2xl grid-cols-2 gap-y-16 gap-x-8 py-24 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-1 lg:px-8">
         <FormMontre></FormMontre>
-    </div>
-    <div class="flex">
-        <div class="bg-black w-80 h-20 flex rounded-md">
-            <router-link to="/Liste">
-                <div class=" text-white font-montserrat font-bold text-lg">Voir ma liste</div>
-            </router-link>
-        </div>
+
+        <router-link to="/Liste">
+            <div class=" w-1/3 text-white bg-black font-montserrat font-bold text-lg">Voir ma liste</div>
+        </router-link>
     </div>
     <Suspense>
         <router-view />
