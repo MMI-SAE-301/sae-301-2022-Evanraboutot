@@ -1,4 +1,5 @@
 <script setup lang="ts">
+//@ts-nocheck
 import { type Montre, colors, materiaux } from "@/types";
 import { ref } from "vue";
 import FormKitListColors from "./FormKitListColors.vue";
