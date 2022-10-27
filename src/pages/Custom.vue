@@ -31,7 +31,7 @@ import FormMontre from '@/components/FormMontre.vue'
                 </dl>
             </div>
             <div class="grid grid-cols-1 sm:gap-6 absolute right-0 bottom-[-13px]">
-                <img src="../../src/assets/Group 103.png" alt="montre connectée" />
+                <img src="../../src/assets/Group-103.png" alt="montre connectée" />
             </div>
         </div>
     </div>
