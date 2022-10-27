@@ -1,6 +1,6 @@
 <template>
   <div class="bg-indigo-300 max-full h-full">
-    <img alt="watch image" class="max-full w-full  relative z-0" src="../../public/Group 100.png" display: block>
+    <img alt="watch image" class="max-full w-full  relative z-0" src="../assets/Group 100.png" display: block>
   </div>
   <div class="bg-zinc-900">
     <div
@@ -40,7 +40,7 @@
         </dl>
       </div>
       <div class="grid grid-cols-1 sm:gap-6">
-        <img src="../../public/Group 99.png" alt="montre connectée" />
+        <img src="../assets/Group-99.png" alt="montre connectée" />
       </div>
     </div>
 
@@ -49,9 +49,9 @@
     <div
       class="mx-auto grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 py-24 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
       <div class="grid grid-cols-1 sm:gap-6">
-        <img src="../../public/Group 101.png" alt="montre connectée" />
+        <img src="../assets/Group 101.png" alt="montre connectée" />
         <img class="absolute w-[9.8rem] h-[11.5rem] top-[254 0px] left-[370px] rounded-12xl"
-          src="../../public/tumblr_mstgs7dxe91rdu90go1_1280.gif" alt="montre connectée" />
+          src="../assets/tumblr_mstgs7dxe91rdu90go1_1280.gif" alt="montre connectée" />
       </div>
       <div>
         <h2 class="text-xl font-montserrat font-medium tracking-tight text-blue-600 sm:text-xl">Pourquoi nous choisir
@@ -107,7 +107,7 @@
         </dl>
       </div>
       <div class="grid grid-cols-1 sm:gap-6">
-        <img src="../../public/Group 102.png" alt="montre connectée" />
+        <img src="../assets/Group 102.png" alt="montre connectée" />
       </div>
     </div>
 
@@ -123,11 +123,11 @@
     <div class="mx-auto grid w-28 b-5 gap-x-8">
       <button type="button" item
         class="py-2 px-3 text-black bg-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 dark:bg-white dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-        <img src="../../public/PngItem_175396.png" aria-hidden="true" class="mr-2 -ml-1 w-5 h-5">
+        <img src="../assets/PngItem_175396.png" aria-hidden="true" class="mr-2 -ml-1 w-5 h-5">
         Contact
       </button>
 
     </div>
-    <img src="../../public/MMI_dut_small_white.png" aria-hidden="true" class=" w-36 h-36 ml-24">
+    <img src="../assets/MMI_dut_small_white.png" aria-hidden="true" class=" w-36 h-36 ml-24">
   </footer>
 </template>
