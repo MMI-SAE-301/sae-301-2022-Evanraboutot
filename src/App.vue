@@ -23,7 +23,7 @@
               <div class="hidden md:ml-10 md:block md:space-x-8 md:pr-4">
                 <a href="/Accueil" class="font-medium text-white hover:bg-stone-800">Acceuil</a>
   
-                <a href="/Custom" class="font-medium text-white hover:bg-stone-800">Personnalisation</a>
+                <a href="/custom" class="font-medium text-white hover:bg-stone-800">Personnalisation</a>
 
                 <a href="/" class="font-medium text-white hover:bg-stone-800">Connexion</a>
               </div>
@@ -31,7 +31,10 @@
           </div>
   </div>
   <!-- Affiche les pages -->
-  <router-view />
+  <Suspense>
+    <router-view />
+  </Suspense>
+  
 </template>
 
 <script setup lang="ts">

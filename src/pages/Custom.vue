@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import Montre from '@/components/Montre.vue';
 import FormMontre from '@/components/FormMontre.vue'
-
 </script>
 
 <template>
@@ -9,7 +8,7 @@ import FormMontre from '@/components/FormMontre.vue'
         <h1></h1>
     </div>
     <div>
-        <FormMontre />
+        <FormMontre></FormMontre>
     </div>
     <div class="flex justify-center">
         <div class="bg-Blue-Light-0 w-80 h-20 flex justify-center rounded-md">

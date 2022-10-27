@@ -5,13 +5,17 @@ export interface Montre {
     ecran?: string;
 };
 export const colors = {
-    "#FFFFFF": "White",
-    "#E16969": "Rose",
-    "#C6A040": "Jaune",
-    "#6EB045": "Vert",
-    "#4FBA9A": "Cyan",
-    "#5F99A6": "Blue",
-    "#924FA9": "Violet",
+    "#FFFFFF": "Blanc",
+    "#59656d": "Gris plat",
+    "#000000": "Noir",
+    "#ffdf22": "Jaune Soleil",
+    "#fe0002": "Rouge pompier",
+    "#fb7d07": "Orange Citrouille",
+    "#0add08": "Vert vibrant",
+    "#00FFFF": "Cyan",
+    "#33D1FF": "Jade",
+    "#4B0082": "Indigo",
+    "#fe019a": "Neon Rose",
 };
 export const materiaux = [
     {
