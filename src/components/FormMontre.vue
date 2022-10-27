@@ -10,18 +10,18 @@ let user = supabase.auth.user()
 const router = useRouter();
 
 const props = defineProps<{
-    data?: Basket;
+    data?: Montre;
     id?: string;
 }>();
 
-const montre = ref<Basket>(props.data ?? {});
+const montre = ref<Montre>(props.data ?? {});
 
 async function upsertMontre(dataForm, node) {
     const { data, error } = await supabase.from("montre").upsert(dataForm);
     if (error) node.setErrors([error.message]);
     else {
         node.setErrors([]);
-        router.push({ name: "basket" });
+        router.push({ name: "montre" });
     }
 }
 
