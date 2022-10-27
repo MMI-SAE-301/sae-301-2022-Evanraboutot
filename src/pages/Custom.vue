@@ -35,18 +35,38 @@ import FormMontre from '@/components/FormMontre.vue'
             </div>
         </div>
     </div>
-    <div>
+    <div class="bg black">
         <h1></h1>
     </div>
     <div
-        class="mx-auto grid w-full max-w-2xl grid-cols-2 gap-y-16 gap-x-8 py-24 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-1 lg:px-8">
+        class="mx-auto grid w-full max-w-2xl grid-cols-2 gap-y-16 gap-x-8 py-24 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-1 lg:px-8 bg-slate-300">
         <FormMontre></FormMontre>
 
-        <router-link to="/Liste">
-            <div class=" w-1/3 text-white bg-black font-montserrat font-bold text-lg">Voir ma liste</div>
-        </router-link>
+
     </div>
     <Suspense>
         <router-view />
     </Suspense>
+    <footer class="bg-[#030509]">
+
+        <div
+            class="mx-auto grid max-w-2xl font-montserrat grid-cols-1 gap-y-16 gap-x-8 py-24 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-1 lg:px-8">
+            <h2 class="text-center text-5xl font-hairline tracking-tight text-white sm:text-5xl">Penser. Créer.
+                Profiter.
+            </h2>
+            <p class=" text-center text-gray-400 font-montserrat font-light">Nous sommes une équipe diversifiée et
+                passionnée
+                qui prend en charge votre conception et vous permet de mettre en œuvre la montre qui vous correspond.
+            </p>
+        </div>
+        <div class="mx-auto grid w-28 b-5 gap-x-8">
+            <button type="button" item
+                class="py-2 px-3 text-black bg-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 dark:bg-white dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                <img src="../../public/PngItem_175396.png" aria-hidden="true" class="mr-2 -ml-1 w-5 h-5">
+                Contact
+            </button>
+
+        </div>
+        <img src="../../public/MMI_dut_small_white.png" aria-hidden="true" class=" w-36 h-36 ml-24">
+    </footer>
 </template>

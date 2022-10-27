@@ -42,6 +42,7 @@ if (props.id) {
         <div class="">
             <MontreVue class="w-52" v-bind="montre" id="profil" />
         </div>
+
         <div class="flex flex-col justify-center">
             <FormKit type="form" v-model="montre" @submit="upsertMontre" :submit-attrs="{
                 classes: {
@@ -67,8 +68,16 @@ if (props.id) {
                     <span class="sr-only">{{context.option.label}}</span>
                 </template>
             </FormKit> -->
+
             </FormKit>
         </div>
+        <router-link to="/Liste">
+            <button
+                class=" justify-center w-48 text-white bg-black font-montserrat font-bold text-center text-lg py-8 px-8 rounded-3xl">
+                Voir ma
+                liste
+            </button>
+        </router-link>
     </div>
 </template>
 
