@@ -111,7 +111,8 @@ Style</h2>
     </div>
 
   </div>
-  <div class="bg-[#030509]">
+  <footer class="bg-[#030509]">
+    
     <div
       class="mx-auto grid max-w-2xl font-montserrat grid-cols-1 gap-y-16 gap-x-8 py-24 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-1 lg:px-8">
       <h2 class="text-center text-5xl font-hairline tracking-tight text-white sm:text-5xl">Penser. Créer. Profiter.</h2>
@@ -122,11 +123,8 @@ Style</h2>
   <img src="../../public/PngItem_175396.png" aria-hidden="true" class="mr-2 -ml-1 w-5 h-5">
   Contact
 </button>
-<div class="mx-auto w-full gap-y-16 gap-x-8 py-24 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-120 border-b-4 border-indigo-500 "></div>
-</div>
-      
-      </div>
 
-   
-
+</div> 
+<img src="../../public/MMI_dut_small_white.png" aria-hidden="true" class=" w-36 h-36 ml-24">  
+</footer>
 </template>

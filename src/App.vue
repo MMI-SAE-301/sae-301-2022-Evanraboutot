@@ -2,7 +2,7 @@
   <div class="relative overflow-hidden bg-[#131C32]"></div>
 
   <div>
-          <div class="relative px-4 pt-6 sm:px-6 lg:px-8 bg-[#131C32]">
+          <div class="relative px-4 pt-6 h-24 sm:px-6 lg:px-8 bg-[#131C32]">
             <nav class="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
               <div class="flex flex-shrink-0 flex-grow items-center lg:flex-grow-0">
                 <div class="flex w-full items-center justify-between md:w-auto">
