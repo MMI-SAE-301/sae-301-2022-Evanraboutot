@@ -11,8 +11,8 @@
 -[X] [HeroIcons pour Vue 3](https://github.com/tailwindlabs/heroicons#vue)
 -[X] ["Polyfill" pour pouvoir importer les types TypeScript de `defineProps`](https://github.com/wheatjs/
 vite-plugin-vue-type-imports)
--[X] [Customisation des chaussures couleur]
--[X] [Customisation des chaussures Formulaire]
--[X] [Customisationdeschaussures Collection]
--[X] [Barre de Connexion]
--[X] [Intégration avec tailwind CSS]
+-[X] Customisation des chaussures couleur
+-[X] Customisation des chaussures Formulaire
+-[X] Customisationdeschaussures Collection
+-[X] Barre de Connexion
+-[X] Intégration avec tailwind CSS
