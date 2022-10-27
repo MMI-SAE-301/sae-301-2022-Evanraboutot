@@ -7,6 +7,7 @@ const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
 export const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
 // Pour tester dans la console, dé-commenter la ligne qui suit :
+//@ts-ignore
 globalThis.supabase = supabase;
 
 export const user = ref(supabase.auth.user());
