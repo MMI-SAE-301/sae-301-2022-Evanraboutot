@@ -45,7 +45,7 @@ if (props.id) {
         <div class="flex flex-col justify-center">
             <FormKit type="form" v-model="montre" @submit="upsertMontre" :submit-attrs="{
                 classes: {
-                    input: `text-[#FFFFFF] bg-Blue-Light-0 bouton`
+                    input: `text-[#FFFFFF] bg-black bouton`
                 }
             }">
 
