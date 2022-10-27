@@ -50,7 +50,7 @@
       class="mx-auto grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 py-24 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
       <div class="grid grid-cols-1 sm:gap-6">
         <img src="../../public/Group 101.png" alt="montre connectée" />
-        <img class="absolute w-[9.8rem] h-[11.5rem] top-[2505px] left-[370px] rounded-12xl"
+        <img class="absolute w-[9.8rem] h-[11.5rem] top-[2540px] left-[370px] rounded-12xl"
           src="../../public/tumblr_mstgs7dxe91rdu90go1_1280.gif" alt="montre connectée" />
       </div>
       <div>
@@ -90,10 +90,11 @@
         <h2 class="text- font-montserrat font-medium tracking-tight text-blue-300 sm:text-xl">Nouvelle collection
         </h2>
         <h2 class="mb-12 text-8xl font-hairline tracking-tight text-white sm:text-8xl">Votre
-Style</h2>
+          Style</h2>
         <p class="mt-4 text-white font-light">Créer la montre qui correspond,
-à vous et à vos activités</p>
-        <button router-link to="/" class="bg-gray-700 mt-12 hover:bg-gray-800 text-white font-semibold py-2 px-4 border border-white rounded-xl">
+          à vous et à vos activités</p>
+        <button router-link to="/"
+          class="bg-gray-700 mt-12 hover:bg-gray-800 text-white font-semibold py-2 px-4 border border-white rounded-xl">
           Personnaliser
         </button>
 
@@ -112,19 +113,21 @@ Style</h2>
 
   </div>
   <footer class="bg-[#030509]">
-    
+
     <div
       class="mx-auto grid max-w-2xl font-montserrat grid-cols-1 gap-y-16 gap-x-8 py-24 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-1 lg:px-8">
       <h2 class="text-center text-5xl font-hairline tracking-tight text-white sm:text-5xl">Penser. Créer. Profiter.</h2>
-      <p class=" text-center text-gray-400 font-montserrat font-light">Nous sommes une équipe diversifiée et passionnée qui prend en charge votre conception et vous permet de mettre en œuvre la montre qui vous correspond.</p>
+      <p class=" text-center text-gray-400 font-montserrat font-light">Nous sommes une équipe diversifiée et passionnée
+        qui prend en charge votre conception et vous permet de mettre en œuvre la montre qui vous correspond.</p>
     </div>
-      <div class="mx-auto grid w-28 b-5 gap-x-8">
-      <button type="button" item class="py-2 px-3 text-black bg-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 dark:bg-white dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-  <img src="../../public/PngItem_175396.png" aria-hidden="true" class="mr-2 -ml-1 w-5 h-5">
-  Contact
-</button>
+    <div class="mx-auto grid w-28 b-5 gap-x-8">
+      <button type="button" item
+        class="py-2 px-3 text-black bg-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 dark:bg-white dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+        <img src="../../public/PngItem_175396.png" aria-hidden="true" class="mr-2 -ml-1 w-5 h-5">
+        Contact
+      </button>
 
-</div> 
-<img src="../../public/MMI_dut_small_white.png" aria-hidden="true" class=" w-36 h-36 ml-24">  
-</footer>
+    </div>
+    <img src="../../public/MMI_dut_small_white.png" aria-hidden="true" class=" w-36 h-36 ml-24">
+  </footer>
 </template>
