@@ -17,5 +17,7 @@ import FormMontre from '@/components/FormMontre.vue'
             </router-link>
         </div>
     </div>
-
+    <Suspense>
+    <router-view />
+  </Suspense>
 </template>
